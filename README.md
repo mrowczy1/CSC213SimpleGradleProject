@@ -1,8 +1,7 @@
 # Simple Gradle Project
 
 [Gradle](https://gradle.org/) is quite a powerful build automation system that can handle many 
-[different languages](https://docs.gradle.org/current/userguide/userguide.html)! Build systems in general help us  
-manage larger projects that have 1 or more internal or external (or 3rd party) dependencies.  
+[different languages](https://docs.gradle.org/current/userguide/userguide.html)! Build systems in general help us manage larger projects that have 1 or more internal or external (or 3rd party) dependencies.  
 
 For this specific Gradle project, we are using [JUnit 6](https://junit.org/) as our testing framework, so we must 
 declare this as one of our dependencies! Take a look at the `build.gradle.kts` to see how this is done.
