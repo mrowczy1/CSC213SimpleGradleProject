@@ -1,5 +1,5 @@
 plugins {
-    id("java") // Let Gradle know that this is a Java project since we could have projects in other languages.
+    java // Let Gradle know that this is a Java project since we could have projects in other languages.
 }
 
 // Tell Gradle where to pull code from. Here we are pulling all of our dependencies from maven central. We can visit
@@ -19,8 +19,8 @@ repositories {
 // A runtime only dependency is a dependency that is used only during...well...runtime.
 // For more information on these dependency configurations: https://docs.gradle.org/current/userguide/dependency_configurations.html
 dependencies {
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.2")
-    testImplementation("org.junit.jupiter:junit-jupiter:6.0.2")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.3")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.3")
 }
 
 tasks.test {
